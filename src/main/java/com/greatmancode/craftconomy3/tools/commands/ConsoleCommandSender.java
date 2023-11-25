@@ -29,7 +29,7 @@ public class ConsoleCommandSender<T> implements CommandSender<T> {
 
     @NonNull
     private final String name;
-    private final UUID uuid = null;
+    private final UUID uuid = UUID.fromString("ffffffff-ffff-ffff-fff1-ffffffff");
     @NonNull
     private T sender;
 
